@@ -1,0 +1,30 @@
+[project]
+name = "dexim-cli-common"
+version = "0.1.0"
+description = "Shared Rich UI/UX library for DexImitate CLI applications"
+readme = "README.md"
+authors = [
+    { name = "haoyan.li", email = "haoyan.li@techshare.co.jp" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "rich>=13.0",
+    "click>=8.0",
+    "rich-click>=1.8",
+]
+
+[build-system]
+requires = ["uv_build>=0.9.10,<0.10.0"]
+build-backend = "uv_build"
+
+[tool.ruff]
+line-length = 88
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]
+
+[tool.mypy]
+python_version = "3.10"
+strict = true
+ignore_missing_imports = true
