@@ -19,6 +19,7 @@ build-backend = "uv_build"
 
 [tool.uv.build-backend]
 module-name = "dexim.cli.common"
+namespace = true
 
 [tool.ruff]
 line-length = 88
