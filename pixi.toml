@@ -1,0 +1,14 @@
+[workspace]
+authors = ["haoyan.li <haoyan.li@techshare.co.jp>"]
+channels = ["conda-forge"]
+name = "ts-dexim-cli-common"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.10.*"
+
+[pypi-dependencies]
+dexim-cli-common = { path = ".", editable = true }
