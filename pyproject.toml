@@ -14,11 +14,11 @@ dependencies = [
 ]
 
 [build-system]
-requires = ["uv_build>=0.9.10,<0.10.0"]
+requires = ["uv_build>=0.10.0"]
 build-backend = "uv_build"
 
-[tool.uv_build]
-namespace-packages = ["dexim"]
+[tool.uv.build-backend]
+module-name = "dexim.cli.common"
 
 [tool.ruff]
 line-length = 88
