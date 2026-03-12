@@ -12,3 +12,4 @@ python = "3.10.*"
 
 [pypi-dependencies]
 dexim-cli-common = { path = ".", editable = true }
+readchar = ">=4.0"
