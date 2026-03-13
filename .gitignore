@@ -10,3 +10,6 @@ wheels/
 .venv
 # Local dependency clones (dev convenience; not tracked)
 packages/
+
+# Calibration data
+calib/
