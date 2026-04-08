@@ -15,10 +15,12 @@ from .banner import print_banner
 from .console import get_console
 from .error_handler import handle_cli_error, setup_error_handling
 from .formatting import make_table, status_badge
+from .logging import configure_logging
 from .theme import DEXIM_THEME
 
 __all__ = [
     "DEXIM_THEME",
+    "configure_logging",
     "get_console",
     "handle_cli_error",
     "make_table",
