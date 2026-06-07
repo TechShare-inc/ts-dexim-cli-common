@@ -32,6 +32,7 @@ def handle_cli_error(func: F) -> F:
     Returns:
         The wrapped function.
     """
+
     @functools.wraps(func)
     def wrapper(*args: Any, **kwargs: Any) -> Any:
         try:
