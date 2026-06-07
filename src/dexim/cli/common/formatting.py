@@ -38,6 +38,6 @@ def status_badge(ok: bool) -> str:
         ok: ``True`` for an ONLINE/OK state, ``False`` for OFFLINE/error.
 
     Returns:
-        A Rich markup string such as ``"[success]● ONLINE[/]"``.
+        A Rich markup string such as ``"[success]* ONLINE[/]"``.
     """
-    return "[success]● ONLINE[/]" if ok else "[error]● OFFLINE[/]"
+    return "[success]* ONLINE[/]" if ok else "[error]* OFFLINE[/]"

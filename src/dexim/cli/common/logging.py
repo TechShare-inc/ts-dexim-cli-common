@@ -14,7 +14,7 @@ def configure_logging(level: str) -> None:
     level so third-party libraries respect the choice.
 
     Args:
-        level: Log level string — one of ``DEBUG``, ``INFO``, ``WARNING``,
+        level: Log level string -- one of ``DEBUG``, ``INFO``, ``WARNING``,
             ``ERROR``, or ``CRITICAL`` (case-insensitive).
     """
     level = level.upper()

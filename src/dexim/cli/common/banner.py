@@ -22,11 +22,11 @@ def print_banner(
 
     Example output::
 
-        ╭──────────── DexImitate  v0.1.0 ─────────────╮
-        │                                               │
-        │  Real-time Bimanual Robot Control Framework   │
-        │                                               │
-        ╰───────────────────────────────────────────────╯
+        +------------ DexImitate  v0.1.0 -------------+
+        |                                               |
+        |  Real-time Bimanual Robot Control Framework   |
+        |                                               |
+        +-----------------------------------------------+
     """
     console = get_console()
     title = Text(app_name, style="brand")

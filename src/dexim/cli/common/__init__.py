@@ -1,14 +1,14 @@
-"""dexim-cli-common — Shared Rich UI/UX library for DexImitate CLI applications.
+"""dexim-cli-common -- Shared Rich UI/UX library for DexImitate CLI applications.
 
 Public API
 ----------
-- :data:`DEXIM_THEME` — Rich :class:`~rich.theme.Theme` with DexImitate brand styles.
-- :func:`get_console` — Singleton :class:`~rich.console.Console` factory.
-- :func:`print_banner` — Render the DexImitate app banner.
-- :func:`make_table` — Build a uniformly styled :class:`~rich.table.Table`.
-- :func:`status_badge` — Rich-markup ONLINE / OFFLINE badge string.
-- :func:`setup_error_handling` — Install Rich traceback handler.
-- :func:`handle_cli_error` — Decorator for Click commands; catches and renders errors.
+- :data:`DEXIM_THEME` -- Rich :class:`~rich.theme.Theme` with DexImitate brand styles.
+- :func:`get_console` -- Singleton :class:`~rich.console.Console` factory.
+- :func:`print_banner` -- Render the DexImitate app banner.
+- :func:`make_table` -- Build a uniformly styled :class:`~rich.table.Table`.
+- :func:`status_badge` -- Rich-markup ONLINE / OFFLINE badge string.
+- :func:`setup_error_handling` -- Install Rich traceback handler.
+- :func:`handle_cli_error` -- Decorator for Click commands; catches and renders errors.
 """
 
 from .banner import print_banner
