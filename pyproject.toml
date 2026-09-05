@@ -12,6 +12,7 @@ dependencies = [
     "click>=8.0",
     "rich-click>=1.8",
     "readchar>=4.0",
+    "loguru>=0.7",
 ]
 
 [build-system]
