@@ -3,7 +3,7 @@ authors = ["haoyan.li <haoyan.li@techshare.co.jp>"]
 channels = ["conda-forge"]
 name = "ts-dexim-cli-common"
 platforms = ["win-64"]
-version = "0.1.0"
+version = "1.0.0"
 
 [tasks]
 
